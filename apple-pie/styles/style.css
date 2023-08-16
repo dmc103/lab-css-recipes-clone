@@ -22,3 +22,85 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+body {
+  padding: 0 90px 100px 90px;
+}
+
+.header {
+  background-image: url ("apple-pie.jpg");
+  height:auto;
+  display: block;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+}
+
+.apple-text {
+  position:absolute;
+  font-size: 50px;
+  top: 150%;
+  left: 30%;
+  padding: 90px 0px 0 90px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+}
+
+.introduction, .list img {
+  text-align:center;
+  align-items: center;
+  border-image-slice: fill;
+
+}
+
+.introduction p {
+  margin: 30px;
+  padding: 30px 90px 0 90px;
+  text-align: justify;
+}
+
+.introduction img {
+  max-width: 80%;
+  height: auto;
+  width: 350px;
+  height:auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.ingredients, .directions {
+  text-align:left;
+  align-items: center;
+  margin: 30px;
+  padding: 30px 90px 0 90px;
+}
+
+.ing-list {
+  text-align:left;
+  align-items: center;
+  margin: 30px;
+  padding: 10px 90px 0 90px;
+  list-style-type: none;
+}
+
+.ing-list li::before {
+  content: "-";
+  margin-right: 0.5em; 
+}
+
+div section img {
+  align-items: center;
+  width: 350px;
+  height:auto;
+  display: block;
+  margin: 0 auto;
+}
+
+div > .instructions {
+  text-align:left;
+  margin: auto;
+  padding: 10px 90px 0 150px;
+}
+

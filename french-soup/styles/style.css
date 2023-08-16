@@ -1,9 +1,72 @@
 /*Some necessary adjustments*/
 h1, body, html, main {
-  margin: 0;
+  margin: 0px;
 }
 /*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+body {
+  padding: 0 90px 100px 90px;
+  font-family: "Helvetica", sans-serif;
 }
+
+.soupheader {
+  height:auto;
+  display: block;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+}
+
+.soupheader img {
+  max-width: 100%;
+  height:auto;
+  display: block;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+.souptext {
+  position:absolute;
+  font-size: 50px;
+  top: 30%;
+  left: 20%;
+  padding: 90px 0px 0 90px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+}
+
+div > p {
+  margin: 30px;
+  padding: 30px 90px 0 90px;
+  text-align: justify;
+}
+
+div > img {
+  align-items: center;
+  width: 350px;
+  height:auto;
+  display: block;
+  margin: 0 auto;
+  padding: 0 0 50px 0;
+}
+
+div .ingredients {
+  text-align:left;
+  align-items: center;
+  list-style-type: none;
+}
+
+div .ingredients li::before {
+    content: "-";
+    margin-right: 0.5em; 
+  }
+
+  section > img {
+    align-items: center;
+    width: 350px;
+    height:auto;
+    display: block;
+    margin: 0 auto;
+    padding: 0 0 50px 0;
+  }
